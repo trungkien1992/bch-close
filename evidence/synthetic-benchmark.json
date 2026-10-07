@@ -1,0 +1,110 @@
+{
+  "schema": "bch-close-synthetic-benchmark/v1",
+  "synthetic": true,
+  "runAt": "2026-10-07T03:59:48.356Z",
+  "sourceCommit": "8cdaceb2af40adcced59cf5410ba7b771e263b5e",
+  "nodeVersion": "v24.19.0",
+  "coreSha256": "9a038c05d6869dbc7a424ac60fa902f4e6e17531c72264c5d69febfb0ddbd156",
+  "oracleSha256": "45778af18e523d4c692ec8f903a3abd622120ffd4cd44076dfa994bbf2c9b827",
+  "invoiceCount": 30,
+  "invoiceRowsMatchingOracle": 30,
+  "checkGroupsPassed": 17,
+  "checkGroupsTotal": 17,
+  "totalsSats": {
+    "expected": "30000000",
+    "confirmed": "19800000",
+    "outstanding": "10400000",
+    "excess": "200000",
+    "pending": "2000000"
+  },
+  "statusCounts": {
+    "Paid": 16,
+    "Partial": 4,
+    "Unpaid": 4,
+    "Excess": 2,
+    "Pending": 2,
+    "Review": 2
+  },
+  "receiptInputRows": 31,
+  "uniqueReceiptOutputs": 26,
+  "ignoredDuplicateRows": 5,
+  "repeatedImportDuplicateRows": 31,
+  "repeatedImportAdditionalCreditSats": "0",
+  "unresolvedOutputs": 1,
+  "checks": [
+    {
+      "name": "CSV and JSON imports produce identical parsed records",
+      "passed": true
+    },
+    {
+      "name": "All 30 invoice statuses, balances and assigned outputs match the declarative oracle",
+      "passed": true
+    },
+    {
+      "name": "All five aggregate satoshi totals match fixed expected values",
+      "passed": true
+    },
+    {
+      "name": "31 input rows yield exactly 26 distinct outputs and 5 ignored duplicates",
+      "passed": true
+    },
+    {
+      "name": "Status distribution and exception count match the authored fixture",
+      "passed": true
+    },
+    {
+      "name": "Reimporting the complete 31-row receipt file adds no payment credit",
+      "passed": true
+    },
+    {
+      "name": "Two outputs from one transaction separately settle SYN-016",
+      "passed": true
+    },
+    {
+      "name": "Equal amounts on a reused address leave one output unassigned",
+      "passed": true
+    },
+    {
+      "name": "Zero and unknown confirmations remain pending without reducing outstanding",
+      "passed": true
+    },
+    {
+      "name": "Excess payment does not offset a different unpaid invoice",
+      "passed": true
+    },
+    {
+      "name": "A missing explicit invoice reference gives that output no credit",
+      "passed": true
+    },
+    {
+      "name": "An explicit invoice reference with the wrong recipient gives no credit",
+      "passed": true
+    },
+    {
+      "name": "A noted manual assignment credits only the selected invoice",
+      "passed": true
+    },
+    {
+      "name": "Manual exclusion retains the note and gives no additional credit",
+      "passed": true
+    },
+    {
+      "name": "Workspace restoration preserves sample labelling, decisions and accounting",
+      "passed": true
+    },
+    {
+      "name": "JSON and CSV reports retain all 30 invoices and 26 output evidence rows",
+      "passed": true
+    },
+    {
+      "name": "A conflicting duplicate rejects the merge without changing existing receipts",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "All customers, invoices and transaction IDs are fictional.",
+    "This measures deterministic fixture outcomes, not merchant adoption or general accuracy.",
+    "Human review time and the proposed 50% improvement have not been measured.",
+    "Browser interaction and responsive UI checks remain unverified."
+  ]
+}

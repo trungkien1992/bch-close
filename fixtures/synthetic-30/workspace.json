@@ -1,0 +1,510 @@
+{
+  "version": 1,
+  "mode": "sample",
+  "invoices": [
+    {
+      "id": "SYN-001",
+      "customer": "Fictional customer 01",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-002",
+      "customer": "Fictional customer 02",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-003",
+      "customer": "Fictional customer 03",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-004",
+      "customer": "Fictional customer 04",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-005",
+      "customer": "Fictional customer 05",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-006",
+      "customer": "Fictional customer 06",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-007",
+      "customer": "Fictional customer 07",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-008",
+      "customer": "Fictional customer 08",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-009",
+      "customer": "Fictional customer 09",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-010",
+      "customer": "Fictional customer 10",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-011",
+      "customer": "Fictional customer 11",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-012",
+      "customer": "Fictional customer 12",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-013",
+      "customer": "Fictional customer 13",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-014",
+      "customer": "Fictional customer 14",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-015",
+      "customer": "Fictional customer 15",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-016",
+      "customer": "Fictional customer 16",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-017",
+      "customer": "Fictional customer 17",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-018",
+      "customer": "Fictional customer 18",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-019",
+      "customer": "Fictional customer 19",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-020",
+      "customer": "Fictional customer 20",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-021",
+      "customer": "Fictional customer 21",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-022",
+      "customer": "Fictional customer 22",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-023",
+      "customer": "Fictional customer 23",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-024",
+      "customer": "Fictional customer 24",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-025",
+      "customer": "Fictional customer 25",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-026",
+      "customer": "Fictional customer 26",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-027",
+      "customer": "Fictional customer 27",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-028",
+      "customer": "Fictional customer 28",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-029",
+      "customer": "Fictional customer 29",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:pr95sy3j9xwd2ap32xkykttr4cvcu7as4yc93ky28e",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    },
+    {
+      "id": "SYN-030",
+      "customer": "Fictional customer 30",
+      "expectedSats": "1000000",
+      "address": "bitcoincash:pr95sy3j9xwd2ap32xkykttr4cvcu7as4yc93ky28e",
+      "dueDate": "2026-10-06",
+      "reference": ""
+    }
+  ],
+  "receipts": [
+    {
+      "txid": "4846ecb765127aec32ccd022b510468947c0031c2e4867de69a9c4fd0b9a1831",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-001",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "1e150ad0a6b561fc9e38533226f5ce62596c7715809cc2254b0da99d9f4e283b",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-002",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "5a5c699ffb58fea88151f3cdb1114891ec50ba2b5c94d9bd87f6e6c53b012bfb",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-003",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "f4cac77298109f3faa18ea9a34dde513ea89b5aec0562fac494d53fea9075eef",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-004",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "6cb36837c5e495047dc75d2bd897b807bc1a6f12866c4d6e3554e77560ebde64",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-005",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "e7e9b7c22029cee3604f2bc3947a90475fe0215b2c046071ef974adf576bc2f8",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-006",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "5a80ce7cda5e5fc006edaa6383b277da88de4f15c134cdc155a5ef05972d048f",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-007",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "bc6ae9f2a4e7aef9812208e1b4d2448bbab55f7b210b0f9b5b2b54f6b7f62bcf",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-008",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "2a920fbb793a01b0ae6c9e2cf1def4c0665d48de5d65624232557b7a427d353c",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-009",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "35933b253278d0380dfd94abad1441319cb4124381e407bb069e49fb7717bf8f",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-010",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "2aedcc8583d13e5099fe01a271b404ff1f73070fbd30d7a1d9d9763ff2b5fd4e",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-011",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "6deaf75da9099c66ba7d43ddeeffe4768fb250a2361de476b6ef3a51f1f3a058",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-012",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "4f26c2c14fe8a6a78f740c9834afcfcb5ab59d6bcd1c4c4c6ba0e567fd7abb9d",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-013",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "f8aa5ebe5a17c80043c7b22db2fa450aa5ca7580676c984012482ec52d07b02e",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-014",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "b16cb47e47e9aeacc6a136d88595d542e2a4df198da23b71f12f7ef80ac9bd45",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-015",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "ab05944c28694952deb5cca1a2162bcec776c6fe85324e1a7a8ce30adb27bee4",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "400000",
+      "invoiceId": "SYN-016",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "ab05944c28694952deb5cca1a2162bcec776c6fe85324e1a7a8ce30adb27bee4",
+      "vout": 1,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "600000",
+      "invoiceId": "SYN-016",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "a01f9ad949637836cf93ee520c92cbb6dfd400fe37176d2a2572c504440c8f1b",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "400000",
+      "invoiceId": "SYN-017",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "c9707fee12b8a610f7b16a55f774749e39c546f5fd8f7dee6d53297f805734a7",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "400000",
+      "invoiceId": "SYN-018",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "9ea02b8f8208066c6aecbe7e113e11f5ff9e573fa82d93b747f56ac555d0b88c",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "400000",
+      "invoiceId": "SYN-019",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "d8b58eb4e4132599ba142789622d9c3c882e25b5eca76ce232be05b9436ecb27",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "400000",
+      "invoiceId": "SYN-020",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "94530caddff48295849088a89d8d1dd85ec5865cedad7e8a132254c2d567ef08",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1100000",
+      "invoiceId": "SYN-025",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "3d5ae816686624c17f9445d8c2e7fc7de2e83f7df6609a3987326a7cfeffaf46",
+      "vout": 0,
+      "address": "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "amountSats": "1100000",
+      "invoiceId": "SYN-026",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "8c55be506b69693068e170522ed20dd4ba6c2a32df3f281946695f8a2417d006",
+      "vout": 0,
+      "address": "bitcoincash:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-027",
+      "confirmations": 0,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "68ccaeaff2183c06c98d150898f9ff48830b45185981208c64fdc6b33242d9fc",
+      "vout": 0,
+      "address": "bitcoincash:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy",
+      "amountSats": "1000000",
+      "invoiceId": "SYN-028",
+      "confirmations": null,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "txid": "fbdd14a839fbd7bc2ba035102d6c01629a2a15c9a53ca4cb3b3682c06f7be2ff",
+      "vout": 0,
+      "address": "bitcoincash:pr95sy3j9xwd2ap32xkykttr4cvcu7as4yc93ky28e",
+      "amountSats": "1000000",
+      "invoiceId": "",
+      "confirmations": 6,
+      "source": "sample",
+      "observedAt": "2026-10-07T04:00:00.000Z"
+    }
+  ],
+  "decisions": {},
+  "duplicateCount": 5
+}

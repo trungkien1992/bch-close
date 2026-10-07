@@ -1,0 +1,80 @@
+{
+  "schema": "bch-close-dom-workflow/v1",
+  "runAt": "2026-10-07T04:40:30.231Z",
+  "environment": "JSDOM 26.1.0 with user-event 14.6.1; not a real browser",
+  "synthetic": true,
+  "checksPassed": 14,
+  "checksTotal": 14,
+  "checks": [
+    {
+      "name": "Initial workspace renders all eight labelled sample invoices",
+      "passed": true
+    },
+    {
+      "name": "Reset confirmation starts an empty invoice workspace",
+      "passed": true
+    },
+    {
+      "name": "Invoice file import creates the 30-row ledger",
+      "passed": true
+    },
+    {
+      "name": "Receipt file import produces exact totals and ignores five duplicate rows",
+      "passed": true
+    },
+    {
+      "name": "Reimporting through the UI adds no payment credit",
+      "passed": true
+    },
+    {
+      "name": "Search narrows the ledger to the requested invoice",
+      "passed": true
+    },
+    {
+      "name": "A review decision cannot be saved without a choice and note",
+      "passed": true
+    },
+    {
+      "name": "Saving a noted assignment credits SYN-029 and leaves SYN-030 unpaid",
+      "passed": true
+    },
+    {
+      "name": "CSV export invokes a downloadable report with invoice and receipt records",
+      "passed": true
+    },
+    {
+      "name": "Workspace save retains all imported data and the review decision",
+      "passed": true
+    },
+    {
+      "name": "Restoring through the UI preserves balances and manual decisions",
+      "passed": true
+    },
+    {
+      "name": "Invalid transaction IDs show an error without a network call",
+      "passed": true
+    },
+    {
+      "name": "A simulated provider failure shows its error and offers no output import",
+      "passed": true
+    },
+    {
+      "name": "Failed lookups preserve the previous ledger and evidence",
+      "passed": true
+    }
+  ],
+  "workspaceSha256": "4df539a5da55a2ed3010fcf16bd3158103a0e09873c9559bca84e64d507131dd",
+  "instrumentation": [
+    "No rendering or layout engine",
+    "ResizeObserver and viewport-dependent APIs are stubs",
+    "Downloads are intercepted as real Blob contents",
+    "Fetch is stubbed only for the provider-error UI",
+    "Node File supplies the uploaded fixture bytes"
+  ],
+  "remaining": [
+    "Actual browser interactions and file downloads",
+    "Responsive and visual layout",
+    "Independent logged-out reviewer access",
+    "Real merchant pilot"
+  ]
+}

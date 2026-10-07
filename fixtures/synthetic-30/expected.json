@@ -1,0 +1,396 @@
+{
+  "schema": "bch-close-synthetic-oracle/v1",
+  "synthetic": true,
+  "description": "Fictional 30-invoice fixture. Declarative answer key written without reconciliation code.",
+  "counts": {
+    "invoices": 30,
+    "inputReceiptRows": 31,
+    "uniqueReceiptOutputs": 26,
+    "duplicateRows": 5,
+    "unresolvedOutputs": 1,
+    "exceptionInvoices": 14
+  },
+  "statusCounts": {
+    "Paid": 16,
+    "Partial": 4,
+    "Unpaid": 4,
+    "Excess": 2,
+    "Pending": 2,
+    "Review": 2
+  },
+  "totals": {
+    "expected": "30000000",
+    "confirmed": "19800000",
+    "outstanding": "10400000",
+    "excess": "200000",
+    "pending": "2000000"
+  },
+  "invoices": [
+    {
+      "invoice_id": "SYN-001",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "4846ecb765127aec32ccd022b510468947c0031c2e4867de69a9c4fd0b9a1831:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-002",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "1e150ad0a6b561fc9e38533226f5ce62596c7715809cc2254b0da99d9f4e283b:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-003",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "5a5c699ffb58fea88151f3cdb1114891ec50ba2b5c94d9bd87f6e6c53b012bfb:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-004",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "f4cac77298109f3faa18ea9a34dde513ea89b5aec0562fac494d53fea9075eef:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-005",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "6cb36837c5e495047dc75d2bd897b807bc1a6f12866c4d6e3554e77560ebde64:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-006",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "e7e9b7c22029cee3604f2bc3947a90475fe0215b2c046071ef974adf576bc2f8:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-007",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "5a80ce7cda5e5fc006edaa6383b277da88de4f15c134cdc155a5ef05972d048f:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-008",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "bc6ae9f2a4e7aef9812208e1b4d2448bbab55f7b210b0f9b5b2b54f6b7f62bcf:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-009",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "2a920fbb793a01b0ae6c9e2cf1def4c0665d48de5d65624232557b7a427d353c:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-010",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "35933b253278d0380dfd94abad1441319cb4124381e407bb069e49fb7717bf8f:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-011",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "2aedcc8583d13e5099fe01a271b404ff1f73070fbd30d7a1d9d9763ff2b5fd4e:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-012",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "6deaf75da9099c66ba7d43ddeeffe4768fb250a2361de476b6ef3a51f1f3a058:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-013",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "4f26c2c14fe8a6a78f740c9834afcfcb5ab59d6bcd1c4c4c6ba0e567fd7abb9d:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-014",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "f8aa5ebe5a17c80043c7b22db2fa450aa5ca7580676c984012482ec52d07b02e:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-015",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "b16cb47e47e9aeacc6a136d88595d542e2a4df198da23b71f12f7ef80ac9bd45:0"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-016",
+      "status": "Paid",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "ab05944c28694952deb5cca1a2162bcec776c6fe85324e1a7a8ce30adb27bee4:0",
+        "ab05944c28694952deb5cca1a2162bcec776c6fe85324e1a7a8ce30adb27bee4:1"
+      ],
+      "confirmedSats": "1000000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-017",
+      "status": "Partial",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "a01f9ad949637836cf93ee520c92cbb6dfd400fe37176d2a2572c504440c8f1b:0"
+      ],
+      "confirmedSats": "400000",
+      "pendingSats": "0",
+      "outstandingSats": "600000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-018",
+      "status": "Partial",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "c9707fee12b8a610f7b16a55f774749e39c546f5fd8f7dee6d53297f805734a7:0"
+      ],
+      "confirmedSats": "400000",
+      "pendingSats": "0",
+      "outstandingSats": "600000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-019",
+      "status": "Partial",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "9ea02b8f8208066c6aecbe7e113e11f5ff9e573fa82d93b747f56ac555d0b88c:0"
+      ],
+      "confirmedSats": "400000",
+      "pendingSats": "0",
+      "outstandingSats": "600000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-020",
+      "status": "Partial",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "d8b58eb4e4132599ba142789622d9c3c882e25b5eca76ce232be05b9436ecb27:0"
+      ],
+      "confirmedSats": "400000",
+      "pendingSats": "0",
+      "outstandingSats": "600000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-021",
+      "status": "Unpaid",
+      "expectedSats": "1000000",
+      "receiptKeys": [],
+      "confirmedSats": "0",
+      "pendingSats": "0",
+      "outstandingSats": "1000000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-022",
+      "status": "Unpaid",
+      "expectedSats": "1000000",
+      "receiptKeys": [],
+      "confirmedSats": "0",
+      "pendingSats": "0",
+      "outstandingSats": "1000000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-023",
+      "status": "Unpaid",
+      "expectedSats": "1000000",
+      "receiptKeys": [],
+      "confirmedSats": "0",
+      "pendingSats": "0",
+      "outstandingSats": "1000000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-024",
+      "status": "Unpaid",
+      "expectedSats": "1000000",
+      "receiptKeys": [],
+      "confirmedSats": "0",
+      "pendingSats": "0",
+      "outstandingSats": "1000000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-025",
+      "status": "Excess",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "94530caddff48295849088a89d8d1dd85ec5865cedad7e8a132254c2d567ef08:0"
+      ],
+      "confirmedSats": "1100000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "100000"
+    },
+    {
+      "invoice_id": "SYN-026",
+      "status": "Excess",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "3d5ae816686624c17f9445d8c2e7fc7de2e83f7df6609a3987326a7cfeffaf46:0"
+      ],
+      "confirmedSats": "1100000",
+      "pendingSats": "0",
+      "outstandingSats": "0",
+      "excessSats": "100000"
+    },
+    {
+      "invoice_id": "SYN-027",
+      "status": "Pending",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "8c55be506b69693068e170522ed20dd4ba6c2a32df3f281946695f8a2417d006:0"
+      ],
+      "confirmedSats": "0",
+      "pendingSats": "1000000",
+      "outstandingSats": "1000000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-028",
+      "status": "Pending",
+      "expectedSats": "1000000",
+      "receiptKeys": [
+        "68ccaeaff2183c06c98d150898f9ff48830b45185981208c64fdc6b33242d9fc:0"
+      ],
+      "confirmedSats": "0",
+      "pendingSats": "1000000",
+      "outstandingSats": "1000000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-029",
+      "status": "Review",
+      "expectedSats": "1000000",
+      "receiptKeys": [],
+      "confirmedSats": "0",
+      "pendingSats": "0",
+      "outstandingSats": "1000000",
+      "excessSats": "0"
+    },
+    {
+      "invoice_id": "SYN-030",
+      "status": "Review",
+      "expectedSats": "1000000",
+      "receiptKeys": [],
+      "confirmedSats": "0",
+      "pendingSats": "0",
+      "outstandingSats": "1000000",
+      "excessSats": "0"
+    }
+  ],
+  "ambiguousOutput": "fbdd14a839fbd7bc2ba035102d6c01629a2a15c9a53ca4cb3b3682c06f7be2ff:0",
+  "ambiguousCandidates": [
+    "SYN-029",
+    "SYN-030"
+  ],
+  "manualDecision": {
+    "invoiceId": "SYN-029",
+    "note": "FICTIONAL: independent fixture answer assigns this output to SYN-029.",
+    "at": "2026-10-07T04:00:00.000Z"
+  },
+  "afterManualTotals": {
+    "expected": "30000000",
+    "confirmed": "20800000",
+    "outstanding": "9400000",
+    "excess": "200000",
+    "pending": "2000000"
+  }
+}

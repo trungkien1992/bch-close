@@ -1,0 +1,8 @@
+{
+  "synthetic": true,
+  "fixtureVersion": 1,
+  "invoices": 30,
+  "note": "Every invoice, customer and transaction ID is fictional. Addresses are public library test vectors. Do not send funds or treat these files as mainnet payment evidence.",
+  "generatedBy": "scripts/generate-synthetic-fixture.py",
+  "oracleUsesAppCode": false
+}

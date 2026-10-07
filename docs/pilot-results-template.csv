@@ -1,0 +1,2 @@
+batch_id,invoice_count,reviewer,method_order,consent_to_pilot,consent_to_share_aggregate,baseline_preparation_seconds,baseline_reconciliation_seconds,app_preparation_seconds,app_reconciliation_seconds,wrong_assignments,amount_discrepancies,additional_duplicate_credit_sats,ambiguous_outputs,unsupported_auto_assignments,unresolved_outputs,second_batch_completed,notes
+,,,,,,,,,,,,,,,,,

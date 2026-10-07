@@ -1,0 +1,242 @@
+[
+  {
+    "invoice_id": "SYN-001",
+    "customer": "Fictional customer 01",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-002",
+    "customer": "Fictional customer 02",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-003",
+    "customer": "Fictional customer 03",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-004",
+    "customer": "Fictional customer 04",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-005",
+    "customer": "Fictional customer 05",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-006",
+    "customer": "Fictional customer 06",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-007",
+    "customer": "Fictional customer 07",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-008",
+    "customer": "Fictional customer 08",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-009",
+    "customer": "Fictional customer 09",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-010",
+    "customer": "Fictional customer 10",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-011",
+    "customer": "Fictional customer 11",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-012",
+    "customer": "Fictional customer 12",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-013",
+    "customer": "Fictional customer 13",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-014",
+    "customer": "Fictional customer 14",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-015",
+    "customer": "Fictional customer 15",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-016",
+    "customer": "Fictional customer 16",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-017",
+    "customer": "Fictional customer 17",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-018",
+    "customer": "Fictional customer 18",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-019",
+    "customer": "Fictional customer 19",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-020",
+    "customer": "Fictional customer 20",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-021",
+    "customer": "Fictional customer 21",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-022",
+    "customer": "Fictional customer 22",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-023",
+    "customer": "Fictional customer 23",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-024",
+    "customer": "Fictional customer 24",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-025",
+    "customer": "Fictional customer 25",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-026",
+    "customer": "Fictional customer 26",
+    "expected_sats": "1000000",
+    "address": "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-027",
+    "customer": "Fictional customer 27",
+    "expected_sats": "1000000",
+    "address": "1KXrWXciRDZUpQwQmuM1DbwsKDLYAYsVLR",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-028",
+    "customer": "Fictional customer 28",
+    "expected_sats": "1000000",
+    "address": "1KXrWXciRDZUpQwQmuM1DbwsKDLYAYsVLR",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-029",
+    "customer": "Fictional customer 29",
+    "expected_sats": "1000000",
+    "address": "3LDsS579y7sruadqu11beEJoTjdFiFCdX4",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  },
+  {
+    "invoice_id": "SYN-030",
+    "customer": "Fictional customer 30",
+    "expected_sats": "1000000",
+    "address": "3LDsS579y7sruadqu11beEJoTjdFiFCdX4",
+    "due_date": "2026-10-06",
+    "payment_reference": ""
+  }
+]

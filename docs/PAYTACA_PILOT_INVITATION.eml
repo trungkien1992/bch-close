@@ -1,0 +1,25 @@
+To: support@paytaca.com
+Subject: Looking for one BCH merchant reconciliation pilot
+X-Unsent: 1
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi Paytaca team,
+I'm Peter, an independent builder in Vietnam. I've built BCH Close, a read-on=
+ly workspace that compares expected invoice records with BCH payment outputs =
+and exports a report of payment exceptions: https://bch-close.petervn.chatgpt=
+.site
+
+I'm looking for one willing BCH merchant or bookkeeper to compare it with the=
+ir current reconciliation process using an anonymized batch of up to 30 exist=
+ing BCH coin invoices. We'd measure accuracy and preparation/review time. Mer=
+chant results are not yet available.
+
+Could you route this to merchant onboarding or introduce a suitable volunteer=
+? We can first check a small redacted export for compatibility. Their raw dat=
+a would remain private; we would agree separately on any aggregate results sh=
+ared publicly.
+
+Thank you,
+Peter

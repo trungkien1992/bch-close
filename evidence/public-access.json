@@ -1,0 +1,10 @@
+{
+  "schema": "bch-close-public-access/v1",
+  "siteUrl": "https://bch-close.petervn.chatgpt.site",
+  "accessMode": "public",
+  "accessRevision": 2,
+  "accessEnabledAt": "2026-10-07T04:09:02.804512+00:00",
+  "deploymentStatus": "succeeded",
+  "sourceCommit": "8cdaceb2af40adcced59cf5410ba7b771e263b5e",
+  "verification": "Native access policy and successful deployment response. Independent logged-out browser check has not been performed."
+}

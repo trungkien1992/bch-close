@@ -1,0 +1,12 @@
+{
+  "name": "bch-close-dom-qa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node dom-workflow.mjs"
+  },
+  "dependencies": {
+    "@testing-library/user-event": "14.6.1",
+    "jsdom": "26.1.0"
+  }
+}
