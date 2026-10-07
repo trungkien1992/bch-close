@@ -2,6 +2,8 @@
 
 This is a recording script, not a completed video. All benchmark records are fictional. The import, review, report and save/restore sequence has passed a simulated-DOM check and still needs a real browser rehearsal.
 
+This script demonstrates the pre-event accounting prototype. It is not a complete BCH BLAZE Mainnet Track demonstration: the app currently has no WizardConnect or mainnet-send feature. After the planned payment upgrade, add a separate segment showing pairing, explicit wallet approval, an actual mainnet transaction, and its recipient output moving from pending to confirmed in the ledger. Use only a recipient address controlled or explicitly approved by the participant; never pay a fixture address.
+
 ## Preparation
 
 Use a fresh tab and the package's `fixtures/synthetic-30` folder. Do not mix a merchant's records with this fixture. For a sample-labelled tour, use Workspace → Restore workspace and choose `workspace.json`; it contains the 30-invoice fixture. For the import and duplicate segment below, start empty and import CSV files. CSV imports enter the app's own-data mode; that label describes the import path, not actual mainnet activity. Say and show that the fixture is fictional.

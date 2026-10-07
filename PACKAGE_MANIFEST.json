@@ -1,6 +1,6 @@
 {
   "schema": "bch-close-source-package/v1",
-  "preparedAt": "2026-10-07T06:27:40.104630+00:00",
+  "preparedAt": "2026-10-07T06:57:02.511542+00:00",
   "sourceCommit": "8cdaceb2af40adcced59cf5410ba7b771e263b5e",
   "files": [
     {
@@ -20,13 +20,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "6062825d1eb33029f991d6415ca9806d6e4781d06b6572df3a2c0bfa958cf301",
-      "bytes": 7342
+      "sha256": "1a932a4c0e961f1535fd395609eb1503c5d38b9dd7d84bda2734b4c6a50d92f7",
+      "bytes": 8108
     },
     {
       "path": "SUBMISSION_READINESS.md",
-      "sha256": "f14005904e4dd7fbe8fd341e40966dd1fa2275087edf8110900b4fe739e61a38",
-      "bytes": 4835
+      "sha256": "3eb9b43b53358bf8740d561cfdebf2acf119457d04c0fefe81052e7071641e4f",
+      "bytes": 6977
     },
     {
       "path": "app/api/transaction/route.ts",
@@ -415,13 +415,23 @@
     },
     {
       "path": "docs/APPLICATION_DRAFT.md",
-      "sha256": "46c60fd1fe5afd6e6bed43ac9da4d96a1973b15dd908959306f6e0d0daf52078",
-      "bytes": 5274
+      "sha256": "c6a3e8bf404b91d6e287f33758e518dea03643235104d8b0d7de4e9adddb491f",
+      "bytes": 7245
+    },
+    {
+      "path": "docs/BCH_BLAZE_2026_REQUIREMENTS.md",
+      "sha256": "3bb8e2ed8d14ac16e803cb9b58958c3db236acfb928665c19c40c8ec71533673",
+      "bytes": 6953
     },
     {
       "path": "docs/DEMO_SCRIPT.md",
-      "sha256": "0a1da2ccb099d88b5fe5c6e5482e461ad22210552eaa3a0877e55f0b1b18b531",
-      "bytes": 4098
+      "sha256": "afd92d3762f1db9a2ef3adbd55fd140f7a6df6b30bd1940fb51de82aebd8800c",
+      "bytes": 4601
+    },
+    {
+      "path": "docs/PAYMENT_UPGRADE_SPEC.md",
+      "sha256": "a27c682a222cca8b254389a13c3ec2bf8dad679b6c127b3ab25f38e0c74deb10",
+      "bytes": 9702
     },
     {
       "path": "docs/PAYTACA_PILOT_INVITATION.eml",
@@ -743,5 +753,6 @@
       "sha256": "6f6d890794fbe23f3e35cceb327f49d5977432a5aaf715e040a6408932da395b",
       "bytes": 3115
     }
-  ]
+  ],
+  "preEventPublicCommit": "0338b5b49bb06a2aa719e9e58933982f6fdefe82"
 }

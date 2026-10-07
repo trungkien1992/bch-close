@@ -5,6 +5,8 @@ Public source: https://github.com/trungkien1992/bch-close
 
 See [SUBMISSION_READINESS.md](SUBMISSION_READINESS.md) for the source package, reproducible 30-invoice synthetic benchmark, application copy, demo script, and pilot protocol.
 
+**BCH BLAZE 2026 status:** this public prototype is not yet eligible for the Mainnet Track. It has no WizardConnect integration and cannot send BCH transactions. See the [requirements and dates](docs/BCH_BLAZE_2026_REQUIREMENTS.md) and [planned payment upgrade](docs/PAYMENT_UPGRADE_SPEC.md). The pre-event source is preserved on [pre-bch-blaze-2026](https://github.com/trungkien1992/bch-close/tree/pre-bch-blaze-2026); future qualifying improvements must be documented during the organizer-confirmed hackathon period.
+
 A merchant bookkeeping workspace that reconciles a complete expected-invoice ledger against Bitcoin Cash payment outputs. The app starts with clearly marked fictional sample data and accepts CSV/JSON records, explicit review decisions, and read-only BCH mainnet transaction lookups through Blockchair.
 
 ## Product flow
@@ -85,7 +87,7 @@ Primary references:
 - The exported package's isolated JSDOM harness passes 14 UI workflow checks, including file imports, manual assignment, reports, save/restore and simulated lookup errors. It does not verify real browser layout or downloads. Run `cd qa && npm ci --ignore-scripts && npm test` after installing the main app dependencies.
 - Public access to the existing deployment was enabled on 7 October 2026 and confirmed through native access/deployment status. An independent logged-out browser check remains pending.
 - Merchant adoption, a 30-invoice timed merchant pilot, and the proposed 50% review-time improvement remain unmeasured.
-- BCH BLAZE entry eligibility, AI-assisted development rules, component-reuse terms, exact deadline and individual payout conditions are not established by this implementation.
+- The BCH BLAZE rules supplied on 7 October permit worldwide individual participation and require a mainnet-send feature, WizardConnect, a Widget Factory presentation, preparation-stream attendance with roll call, and Telegram confirmation. The current prototype has not completed those requirements. The qualifying build period, conflicting deadline dates, template link, and payout denomination still need clarification.
 
 ## Browser agent tools
 

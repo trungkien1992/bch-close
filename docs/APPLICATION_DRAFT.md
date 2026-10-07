@@ -2,6 +2,8 @@
 
 Prepared 7 October 2026. This is draft copy, not an application already submitted.
 
+**Mainnet Track status: ineligible in its current form.** The supplied rules require a BCH mainnet-send feature and WizardConnect, both absent from this prototype. Use the descriptions below only for the current version. Do not describe the planned payment upgrade as shipped until implementation and real transaction evidence exist.
+
 ## One-line description
 
 BCH Close helps merchants reconcile their invoice ledger against Bitcoin Cash payment outputs and export a report of paid, partial, unpaid, excess, pending, and unresolved payments.
@@ -15,6 +17,8 @@ The result is a CSV bookkeeping report and a JSON report with output references,
 ## What Bitcoin Cash is used for
 
 BCH Close reads BCH coin payment outputs, validates mainnet CashAddr and legacy addresses, and reconciles the resulting satoshi amounts with invoices. The live lookup uses Blockchair's Bitcoin Cash transaction dashboard API. It is a read-only bookkeeping application; it does not require a wallet connection or broadcast transactions. The current version covers supported P2PKH/P2SH coin outputs, not CashToken balances.
+
+The proposed hackathon improvement is an invoice payment flow: a customer pairs a BCH wallet through WizardConnect, approves a BCH mainnet payment in the wallet, and receives an output-specific receipt that the merchant can reconcile. This is a design proposal, not current functionality. See [PAYMENT_UPGRADE_SPEC.md](PAYMENT_UPGRADE_SPEC.md).
 
 ## Evidence available today
 
@@ -44,15 +48,28 @@ Browser interaction and responsive layout checks remain unverified in the availa
 | Public repository | https://github.com/trungkien1992/bch-close — public source, tests and evidence |
 | Demo recording | Pending — walkthrough in DEMO_SCRIPT.md |
 | Builder profile | Connected GitHub account: https://github.com/trungkien1992 |
-| Individual prize or funding request | Use confirmed event rules; the advertised total pool is not an individual award |
+| Widget Factory presentation | Pending — obtain and follow the official template |
+| Mainnet transaction evidence | Pending — no transaction has been sent through BCH Close |
+| WizardConnect wallet evidence | Pending — not implemented |
+| Stream roll call / Telegram confirmation | Pending — no participation completion recorded |
+| Individual prize or funding request | Mainnet placement prizes are advertised as $3,500 / $1,500 / $750 PUSD plus stated BLISS tickets; another paragraph says payout in BCH. Resolve the denomination conflict. The $8,000 total pool is not an individual award. |
 
 ## Organizer clarification draft
 
-Before I enter BCH BLAZE 2026, could you confirm whether a solo builder based in Vietnam can participate remotely, whether AI-assisted development and work started before registration are permitted, and whether a read-only BCH merchant reconciliation app using mainnet transaction data qualifies? Please also point me to the official submission requirements, judging criteria, exact deadline and timezone, and individual prize and payout terms.
+Hi BCH BLAZE team — I'm Peter, a solo builder in Vietnam preparing BCH Close: https://bch-close.petervn.chatgpt.site, with public source at https://github.com/trungkien1992/bch-close.
+
+The 7 October prototype is read-only. I understand the Mainnet Track requires WizardConnect and a feature sending BCH mainnet transactions, so I plan a substantive invoice payment and receipt upgrade. Before I schedule that work, could you clarify:
+
+1. When does the qualifying development period begin, and can an existing prototype enter with this substantial improvement made during that period? Are there Mainnet Track rules about AI-assisted coding or reused components?
+2. Is the submission deadline 21 November at 20:00 as shown in the header, or 22 November as stated in the body, and in which timezone? When do submissions open?
+3. Where are the Widget Factory presentation template, official Telegram channel, and preparation-stream schedule/roll-call instructions?
+4. Are placement prizes paid in PUSD or BCH? The prize list and payout paragraph differ.
+
+Thank you.
 
 This question has not been sent.
 
 ## Reference
 
 Official target page: https://dorahacks.io/hackathon/bchblaze2026/detail
-Entry eligibility, work-period rules, and submission formats must be confirmed from full rules or an organizer response before finalizing the application.
+The event text supplied by the builder on 7 October establishes worldwide individual eligibility, required mainnet sending and WizardConnect, the presentation template, roll-call attendance and Telegram confirmation. See [BCH_BLAZE_2026_REQUIREMENTS.md](BCH_BLAZE_2026_REQUIREMENTS.md) for the complete readiness mapping and unresolved details.
