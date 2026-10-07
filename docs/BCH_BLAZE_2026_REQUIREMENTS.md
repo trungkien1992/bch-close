@@ -53,7 +53,7 @@ No pilot, sales, attendance, mainnet-send, or wallet-integration result exists t
 
 ## Immediate sequence
 
-1. Obtain organizer clarification and official template, stream and Telegram links using the unsent draft in [APPLICATION_DRAFT.md](APPLICATION_DRAFT.md).
+1. Await the organizer's response to the short question the builder reports posting on 7 October. Obtain the official template, stream and Telegram links; the longer draft in [APPLICATION_DRAFT.md](APPLICATION_DRAFT.md) includes additional questions not confirmed as posted. See [OUTREACH_STATUS.md](OUTREACH_STATUS.md).
 2. Register when registration opens. Attend one qualifying stream and complete roll call; confirm the project in the official Telegram channel.
 3. Implement the substantive [payment upgrade](PAYMENT_UPGRADE_SPEC.md) during the confirmed eligible period. Retain a clear baseline and dated changes.
 4. Verify pairing, an actual user-approved mainnet payment, receipt reconciliation, independent public access and browser behavior. Run the consenting merchant pilot when a volunteer and compatible data are available.

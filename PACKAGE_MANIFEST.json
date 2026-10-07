@@ -1,12 +1,12 @@
 {
   "schema": "bch-close-source-package/v1",
-  "preparedAt": "2026-10-07T06:57:02.511542+00:00",
+  "preparedAt": "2026-10-07T07:56:25.425917+00:00",
   "sourceCommit": "8cdaceb2af40adcced59cf5410ba7b771e263b5e",
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "5c3e5f3d93b48dda23e1e6db8ea73e4b8eeaeb860562723ae2f70d18849ff661",
-      "bytes": 690
+      "sha256": "3a43717ab339b48db764ad749577bccf1701d6bd238d7b242b280244338edc79",
+      "bytes": 768
     },
     {
       "path": ".npmrc",
@@ -20,13 +20,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "1a932a4c0e961f1535fd395609eb1503c5d38b9dd7d84bda2734b4c6a50d92f7",
-      "bytes": 8108
+      "sha256": "7abfd146d756f591bd3d5d0e53b371d20e7b34266f1527eaa7fed4fda38f6de7",
+      "bytes": 8434
     },
     {
       "path": "SUBMISSION_READINESS.md",
-      "sha256": "3eb9b43b53358bf8740d561cfdebf2acf119457d04c0fefe81052e7071641e4f",
-      "bytes": 6977
+      "sha256": "0fd088f452a70ffaf4be39f5232a749a19757dbed3054ea60414c9565b7eccc0",
+      "bytes": 7555
     },
     {
       "path": "app/api/transaction/route.ts",
@@ -415,13 +415,13 @@
     },
     {
       "path": "docs/APPLICATION_DRAFT.md",
-      "sha256": "c6a3e8bf404b91d6e287f33758e518dea03643235104d8b0d7de4e9adddb491f",
-      "bytes": 7245
+      "sha256": "7e802051e4e646d42d1498732178f4d24874ca5b1b80026cc86d59e995a6ff63",
+      "bytes": 7583
     },
     {
       "path": "docs/BCH_BLAZE_2026_REQUIREMENTS.md",
-      "sha256": "3bb8e2ed8d14ac16e803cb9b58958c3db236acfb928665c19c40c8ec71533673",
-      "bytes": 6953
+      "sha256": "7877ccaaf0b1d0162fdcebaa5358cb14ea3f1af58689cb657d2f9d1e3db3a63e",
+      "bytes": 7119
     },
     {
       "path": "docs/DEMO_SCRIPT.md",
@@ -429,9 +429,14 @@
       "bytes": 4601
     },
     {
+      "path": "docs/OUTREACH_STATUS.md",
+      "sha256": "c7e1ae596bf6cf5b07646d18ecb760578fd938158238fff7c93f2d849d0042bb",
+      "bytes": 2188
+    },
+    {
       "path": "docs/PAYMENT_UPGRADE_SPEC.md",
-      "sha256": "a27c682a222cca8b254389a13c3ec2bf8dad679b6c127b3ab25f38e0c74deb10",
-      "bytes": 9702
+      "sha256": "12ca80a0bfa14b8f83d08a9a19af81acdc161cea60ab660fba69471b96a94d5a",
+      "bytes": 10357
     },
     {
       "path": "docs/PAYTACA_PILOT_INVITATION.eml",
@@ -445,8 +450,8 @@
     },
     {
       "path": "docs/PILOT_RECRUITMENT.md",
-      "sha256": "3308610ce73223b52c3daa15cb35e2511e83d010ee23792afe8fbdc38cad42b2",
-      "bytes": 4665
+      "sha256": "cd80c644710ee5bc0c7ddf55d298302539e89e18193463f0867d37668e8265e4",
+      "bytes": 4681
     },
     {
       "path": "docs/REPOSITORY_PUBLICATION.md",
@@ -482,6 +487,11 @@
       "path": "evidence/export-validation.json",
       "sha256": "12bf3e3869401a77d2c215a2b9e47ed0827e3a9226cb7ee6b401bdb9be8d646f",
       "bytes": 832
+    },
+    {
+      "path": "evidence/payment-compatibility.json",
+      "sha256": "728f2d85125bc8d62d8f15437907d6bf1ffec3d39f8a2745d7f49e5264a44747",
+      "bytes": 2170
     },
     {
       "path": "evidence/public-access.json",
@@ -652,6 +662,46 @@
       "path": "qa/package.json",
       "sha256": "e886a8a614ddc5d57e5fe7e8e7fb9a7fd178506bf9f55c829a52fa14c3f9e22f",
       "bytes": 220
+    },
+    {
+      "path": "qa/payment-compatibility/README.md",
+      "sha256": "d2b9c8346f2eb37d3695b34f2a368b7409ae41229162555133963742d4a621f9",
+      "bytes": 5235
+    },
+    {
+      "path": "qa/payment-compatibility/check-browser.mjs",
+      "sha256": "92adc3cdbeb053fd4eb7ce029024aa56b0e7cbb0f22f0b7cd131f5093a50533b",
+      "bytes": 2422
+    },
+    {
+      "path": "qa/payment-compatibility/compatibility.test.mjs",
+      "sha256": "885d5214f17e6d3472f9ec7f9082c63ba5c582f946340e528c49bccfee9b0c39",
+      "bytes": 9890
+    },
+    {
+      "path": "qa/payment-compatibility/fixtures.mjs",
+      "sha256": "81e5d740b6e0ad01cfabbca00d2b6ecb8e49aafce8378a4753445d4bcadd2883",
+      "bytes": 1607
+    },
+    {
+      "path": "qa/payment-compatibility/package.json",
+      "sha256": "0afd6b68649c2504a62f29335ff039790be963c5b6af2b6b8677d9b2cd7b562a",
+      "bytes": 649
+    },
+    {
+      "path": "qa/payment-compatibility/pnpm-lock.yaml",
+      "sha256": "9001857faac7cde53d02d05ad62efaeef9f6f6e18f82e4c572bf62477f7b2c27",
+      "bytes": 15165
+    },
+    {
+      "path": "qa/payment-compatibility/pnpm-workspace.yaml",
+      "sha256": "7b8b4d8d3090b4a6e98f7c75dfcd4d9f21fd29b3c33906a187ff47e62dbed86d",
+      "bytes": 377
+    },
+    {
+      "path": "qa/payment-compatibility/verify.mjs",
+      "sha256": "753f01f0b18fef9023991d6a66a9b664f792943c2deabf3842c274399e8f7bd0",
+      "bytes": 2503
     },
     {
       "path": "scripts/benchmark-synthetic.mjs",

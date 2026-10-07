@@ -1,0 +1,69 @@
+{
+  "schema": "bch-close-payment-compatibility/v1",
+  "verifiedAt": "2026-10-07T07:54:51.499Z",
+  "node": "v24.19.0",
+  "stage": "pre-event preparation; absent from the live app",
+  "dependencies": {
+    "wizardConnectReact": "0.2.3",
+    "wizardConnectDapp": "0.2.2",
+    "wizardConnectCore": "0.2.4",
+    "libauth": "3.1.0-next.2",
+    "react": "19.2.6",
+    "esbuild": "0.28.0"
+  },
+  "tests": {
+    "total": 16,
+    "passed": 16,
+    "failed": 0,
+    "transport": "memory mock; no real relay"
+  },
+  "browserTargetModuleEvaluation": {
+    "passed": true,
+    "target": "es2022",
+    "format": "esm",
+    "environment": "Node VM with web APIs; no process, Buffer or require globals; no socket opened"
+  },
+  "walletPairingVerified": false,
+  "validSignatureVerified": false,
+  "mainnetBroadcastVerified": false,
+  "liveUtxoProviderVerified": false,
+  "browserInteractionsVerified": false,
+  "merchantPilotCompleted": false,
+  "files": [
+    {
+      "path": "qa/payment-compatibility/package.json",
+      "bytes": 649,
+      "sha256": "0afd6b68649c2504a62f29335ff039790be963c5b6af2b6b8677d9b2cd7b562a"
+    },
+    {
+      "path": "qa/payment-compatibility/pnpm-workspace.yaml",
+      "bytes": 377,
+      "sha256": "7b8b4d8d3090b4a6e98f7c75dfcd4d9f21fd29b3c33906a187ff47e62dbed86d"
+    },
+    {
+      "path": "qa/payment-compatibility/pnpm-lock.yaml",
+      "bytes": 15165,
+      "sha256": "9001857faac7cde53d02d05ad62efaeef9f6f6e18f82e4c572bf62477f7b2c27"
+    },
+    {
+      "path": "qa/payment-compatibility/fixtures.mjs",
+      "bytes": 1607,
+      "sha256": "81e5d740b6e0ad01cfabbca00d2b6ecb8e49aafce8378a4753445d4bcadd2883"
+    },
+    {
+      "path": "qa/payment-compatibility/compatibility.test.mjs",
+      "bytes": 9890,
+      "sha256": "885d5214f17e6d3472f9ec7f9082c63ba5c582f946340e528c49bccfee9b0c39"
+    },
+    {
+      "path": "qa/payment-compatibility/check-browser.mjs",
+      "bytes": 2422,
+      "sha256": "92adc3cdbeb053fd4eb7ce029024aa56b0e7cbb0f22f0b7cd131f5093a50533b"
+    },
+    {
+      "path": "qa/payment-compatibility/verify.mjs",
+      "bytes": 2503,
+      "sha256": "753f01f0b18fef9023991d6a66a9b664f792943c2deabf3842c274399e8f7bd0"
+    }
+  ]
+}

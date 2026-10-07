@@ -47,4 +47,6 @@ next-env.d.ts
 
 # Public export QA dependencies and local TypeScript cache
 /qa/node_modules/
+/qa/payment-compatibility/node_modules/
+/qa/payment-compatibility/.generated/
 *.tsbuildinfo

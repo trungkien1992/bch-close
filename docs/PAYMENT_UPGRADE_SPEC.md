@@ -2,6 +2,10 @@
 
 Prepared 7 October 2026. **Design only: no wallet integration, payment construction, signing or broadcast feature has been implemented.** Perform and document substantive implementation during the organizer-confirmed BCH BLAZE build period.
 
+## Pre-event dependency preparation
+
+The separate [compatibility harness](../qa/payment-compatibility/README.md) pins WizardConnect React 0.2.3, dapp 0.2.2, core 0.2.4 and libauth 3.1.0-next.2, with a lockfile and explicit overrides. Sixteen offline checks and an ES2022 browser-target ESM module check pass. The live app has not imported these dependencies. Mock transport forwarding `broadcast: false` is not proof of a real wallet honoring that flag. The installed hook types include `reconnecting`; handle it explicitly. Libauth requires top-level await, so use an ESM-capable build.
+
 ## Product outcome
 
 A customer pays a BCH invoice through a connected wallet and downloads an output-specific receipt. The merchant imports that receipt into BCH Close, refreshes the transaction observation, and closes the invoice without guessing by amount. This extends the existing bookkeeping workflow and supplies a meaningful mainnet-send feature.
@@ -64,4 +68,4 @@ Keep the customer payment receipt separate from merchant-private review notes. C
 | Public demo | Independent access, real wallet interaction, small-screen review and actual receipt downloads verified |
 | Practical value | Consenting merchant pilot measures preparation plus review time, amount/assignment errors and follow-up use; publish only approved aggregate results |
 
-SDK documentation supports the design, not an integration claim. Outstanding implementation dependencies are a pinned SDK, tested wallet behavior, a token-aware mainnet UTXO provider, transaction construction/fee policy, and actual browser access. Current synthetic/DOM results cannot stand in for any of those checks.
+SDK documentation supports the design, not an integration claim. A pinned SDK combination is now available in the preparation harness. Outstanding implementation dependencies are tested real wallet behavior, a live token-aware mainnet UTXO provider, transaction construction/fee policy, and actual browser access. Current synthetic/DOM results cannot stand in for any of those checks.

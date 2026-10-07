@@ -1,0 +1,14 @@
+# Isolated preparation harness; retain the parent project's release-age policy.
+packages:
+  - '.'
+minimumReleaseAge: 10080
+minimumReleaseAgeIgnoreMissingTime: false
+trustLockfile: false
+strictDepBuilds: true
+allowBuilds:
+  esbuild: true
+overrides:
+  '@bitauth/libauth': 3.1.0-next.2
+  '@wizardconnect/core': 0.2.4
+  '@wizardconnect/dapp': 0.2.2
+  '@wizardconnect/react': 0.2.3

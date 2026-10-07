@@ -7,6 +7,8 @@ See [SUBMISSION_READINESS.md](SUBMISSION_READINESS.md) for the source package, r
 
 **BCH BLAZE 2026 status:** this public prototype is not yet eligible for the Mainnet Track. It has no WizardConnect integration and cannot send BCH transactions. See the [requirements and dates](docs/BCH_BLAZE_2026_REQUIREMENTS.md) and [planned payment upgrade](docs/PAYMENT_UPGRADE_SPEC.md). The pre-event source is preserved on [pre-bch-blaze-2026](https://github.com/trungkien1992/bch-close/tree/pre-bch-blaze-2026); future qualifying improvements must be documented during the organizer-confirmed hackathon period.
 
+Pre-event [payment dependency preparation](qa/payment-compatibility/README.md) now pins the real WizardConnect packages and tests them with mock transport. It is separate from the live app. The builder reports sending four pilot invitations and posting the organizer question; see [outreach status](docs/OUTREACH_STATUS.md).
+
 A merchant bookkeeping workspace that reconciles a complete expected-invoice ledger against Bitcoin Cash payment outputs. The app starts with clearly marked fictional sample data and accepts CSV/JSON records, explicit review decisions, and read-only BCH mainnet transaction lookups through Blockchair.
 
 ## Product flow

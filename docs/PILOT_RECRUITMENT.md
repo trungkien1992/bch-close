@@ -1,8 +1,8 @@
 # Real merchant pilot — recruitment and intake
 
-Prepared 7 October 2026. The demo is public at https://bch-close.petervn.chatgpt.site. No merchant has agreed to participate; no recruitment message has been sent.
+Prepared 7 October 2026. The demo is public at https://bch-close.petervn.chatgpt.site. The builder reports manually sending four invitations on 7 October; no merchant reply or agreement has been provided. See [OUTREACH_STATUS.md](OUTREACH_STATUS.md).
 
-The user approved the invitation below on 7 October 2026. The official support address was rechecked against Paytaca's Payment Hub documentation. Sending remains blocked because Gmail is not installed or connected in this session. A matching unsent email draft is included as `PAYTACA_PILOT_INVITATION.eml`; select the sender account when opening it in a mail client. The file's existence is not evidence of delivery.
+The user approved the Paytaca invitation below, then reported sending it manually on 7 October 2026. The official support address was rechecked against Paytaca's Payment Hub documentation. The archived `PAYTACA_PILOT_INVITATION.eml` remains a draft artifact; its existence and the user's sending report do not independently verify delivery.
 
 ## First route
 
@@ -20,7 +20,7 @@ Publicly profiled candidates:
 
 These are candidates for an introduction. Their current activity, bookkeeping needs, export formats and willingness remain unverified. Start with one consenting participant rather than contacting every listed business.
 
-## Outreach draft — not sent
+## Archived Paytaca invitation draft
 
 To: `support@paytaca.com`
 

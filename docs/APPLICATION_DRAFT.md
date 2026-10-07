@@ -67,7 +67,7 @@ The 7 October prototype is read-only. I understand the Mainnet Track requires Wi
 
 Thank you.
 
-This question has not been sent.
+The builder reports posting a shorter version on 7 October asking about the qualifying build period, deadline/timezone, presentation template and preparation-stream roll call. No organizer answer has been provided. The additional Mainnet AI/reuse policy and payout questions in this longer draft are not confirmed as posted. See [OUTREACH_STATUS.md](OUTREACH_STATUS.md).
 
 ## Reference
 

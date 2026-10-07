@@ -1,0 +1,23 @@
+{
+  "name": "bch-close-payment-compatibility",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "test": "node --test compatibility.test.mjs",
+    "verify": "node verify.mjs",
+    "check:browser": "node --experimental-vm-modules --disable-warning=ExperimentalWarning check-browser.mjs"
+  },
+  "dependencies": {
+    "@bitauth/libauth": "3.1.0-next.2",
+    "@wizardconnect/core": "0.2.4",
+    "@wizardconnect/dapp": "0.2.2",
+    "@wizardconnect/react": "0.2.3",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.0"
+  }
+}
